@@ -1,0 +1,9 @@
+extends ./layout
+block content
+  form(method = "POST",  action = "/add")
+    button(type = "submit") Add 
+    input(type = "text", name = "titre", placeholder = "put the title")
+    input(type='text',name='auteur',placeholder="put the name of the author")
+    input(type='text',name='année', placeholder = "put the year of release")
+    input(type='text', name ='pages',placeholder='put the number of pages' )
+    
